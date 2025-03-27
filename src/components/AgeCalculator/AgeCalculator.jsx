@@ -84,6 +84,7 @@ const AgeCalculator = () => {
 
   //Renderizar os componentes
   return (
+    //Receber dados
     <div className="age-calculator">
       <h1>Calculadora de Idade</h1>
       <div className="input-fields">
