@@ -1,0 +1,101 @@
+/*Caixa principal*/
+.age-calculator {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Titulo*/
+.age-calculator h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/*Caixa input*/
+.input-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/*Borda caixa*/
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+/*Estilo labels*/
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+  text-align: left;
+}
+
+/*Estilo inpput*/
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/*Botão*/
+button {
+  background-color: #4e4caf;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/*Botão-mouse*/
+button:hover {
+  background-color: #4b45a0;
+}
+
+/*Erro*/
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+/*Linha*/
+.result {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/*Resultado*/
+.result-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Numeros*/
+.result-number {
+  font-size: 36px;
+  font-weight: bold;
+  color: #564caf;
+}
+
+/*Resultado*/
+.result-label {
+  font-size: 14px;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
